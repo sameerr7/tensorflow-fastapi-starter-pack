@@ -7,8 +7,8 @@ from application.schema import Symptom
 from application.components.prediction import symptom_check
 
 app_desc = """<h2>Try this app by uploading any image with `predict/image`</h2>
-<h2>Try Covid symptom checker api - it is just a learning app demo</h2>
-<br>by Aniket Maurya"""
+<h2>Try Covid symptom checker api </h2>
+<br>CC Project"""
 
 app = FastAPI(title='Tensorflow FastAPI Starter Pack', description=app_desc)
 
